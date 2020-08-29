@@ -1,5 +1,6 @@
-/* eslint-disable import/no-unresolved */
 /* eslint-disable no-underscore-dangle */
+/* eslint-disable import/no-unresolved */
+
 const fetch = require('node-fetch');
 
 export default class LeaderBoard {

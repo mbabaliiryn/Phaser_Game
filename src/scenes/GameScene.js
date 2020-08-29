@@ -1,10 +1,8 @@
-/* eslint-disable import/extensions */
-/* eslint-disable import/no-unresolved */
 
 import Phaser from 'phaser';
-import ScoreBoard from '../../objects/ScoreBoard';
-import GameStorage from '../../storage/storage';
-import LeaderBoard from '../../objects/LeaderBoard';
+import ScoreBoard from '../objects/ScoreBoard';
+import GameStorage from '../storage/storage';
+import LeaderBoard from '../objects/LeaderBoard';
 
 export default class GameScene extends Phaser.Scene {
   constructor() {

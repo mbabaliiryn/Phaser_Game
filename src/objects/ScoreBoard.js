@@ -1,4 +1,5 @@
 /* eslint-disable no-underscore-dangle */
+
 import DomElements from '../dom/DomElements';
 import LeaderBoard from './LeaderBoard';
 

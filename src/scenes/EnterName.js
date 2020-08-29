@@ -1,10 +1,8 @@
-/* eslint-disable import/extensions */
-/* eslint-disable import/no-unresolved */
 
 import Phaser from 'phaser';
-import DomElements from '../../dom/DomElements';
-import GameStorage from '../../storage/storage';
-import LeaderBoard from '../../objects/LeaderBoard';
+import DomElements from '../dom/DomElements';
+import GameStorage from '../storage/storage';
+import LeaderBoard from '../objects/LeaderBoard';
 
 export default class EnterName extends Phaser.Scene {
   constructor() {

@@ -2,9 +2,9 @@
 /* eslint-disable import/no-extraneous-dependencies */
 /* eslint-disable import/no-unresolved */
 import Phaser from 'phaser';
-import config from '../config/config';
-import GameStorage from '../storage/storage';
-import Button from '../objects/Button';
+import config from '../../config/config';
+import GameStorage from '../../storage/storage';
+import Button from '../../objects/Button';
 
 export default class TitleScene extends Phaser.Scene {
   constructor() {

@@ -1,36 +1,56 @@
 {
-  "name": "Phaser_Game",
+  "name": "Game",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "devDependencies": {
+    "@babel/core": "^7.10.1",
+    "@babel/plugin-transform-runtime": "^7.10.1",
+    "@babel/polyfill": "^7.10.1",
+    "@babel/preset-env": "^7.10.1",
+    "babel-loader": "^8.1.0",
+    "copy-webpack-plugin": "^6.0.1",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-import-resolver-webpack": "^0.12.1",
+    "eslint-plugin-import": "^2.20.2",
+    "file-loader": "^6.0.0",
+    "jest": "^26.0.1",
+    "jest-canvas-mock": "^2.2.0",
+    "raw-loader": "^4.0.1",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.11.0",
+    "phaser": "^3.24.1",
+    "phaser3-rex-plugins": "^1.1.21",
+    "@babel/runtime": "^7.10.2",
+    "node-fetch": "^2.6.0"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest --verbose",
     "build": "webpack --mode production",
     "dev": "webpack --watch --mode development",
     "start": "webpack && webpack-dev-server --port=8000 --open"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mbabaliiryn/Phaser_Game.git"
+    "url": "git+https://github.com/mbabaliiryn/Game.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "phaser"
+  ],
+  "author": "Iryn",
   "license": "ISC",
+  "jest": {
+    "setupFiles": [
+      "jest-canvas-mock"
+    ]
+  },
   "bugs": {
-    "url": "https://github.com/mbabaliiryn/Phaser_Game/issues"
+    "url": "https://github.com/mbabaliiryn/Game/issues"
   },
-  "homepage": "https://github.com/mbabaliiryn/Phaser_Game#readme",
-  "devDependencies": {
-    "eslint": "^6.8.0",
-    "eslint-config-airbnb-base": "^14.1.0",
-    "eslint-plugin-import": "^2.20.2",
-    "webpack": "^4.44.1",
-    "webpack-cli": "^3.3.12"
-  },
+  "homepage": "https://github.com/mbabaliiryn/Game#readme",
   "dependencies": {
-    "acorn": "^8.0.1",
-    "copy-webpack-plugin": "^6.0.3",
-    "node-fetch": "^2.6.0",
-    "phaser": "^3.23.0"
+    "node-fetch": "^2.6.0"
   }
 }

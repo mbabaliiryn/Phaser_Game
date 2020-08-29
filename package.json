@@ -21,8 +21,6 @@
     "webpack": "^4.43.0",
     "webpack-cli": "^3.3.11",
     "webpack-dev-server": "^3.11.0",
-    "phaser": "^3.24.1",
-    "phaser3-rex-plugins": "^1.1.21",
     "@babel/runtime": "^7.10.2",
     "node-fetch": "^2.6.0"
   },
@@ -36,9 +34,7 @@
     "type": "git",
     "url": "git+https://github.com/mbabaliiryn/Game.git"
   },
-  "keywords": [
-    "phaser"
-  ],
+  "keywords": [],
   "author": "Iryn",
   "license": "ISC",
   "jest": {
@@ -51,6 +47,8 @@
   },
   "homepage": "https://github.com/mbabaliiryn/Game#readme",
   "dependencies": {
-    "node-fetch": "^2.6.0"
+    "node-fetch": "^2.6.0",
+    "phaser": "^3.24.1",
+    "phaser3-rex-plugins": "^1.1.21"
   }
 }

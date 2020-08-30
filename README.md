@@ -9,9 +9,20 @@ Assignment [link](https://www.notion.so/Platform-game-4a55a7d1fcc245bcb012c76814
 Tis phaser game is a single player based game. The game is intended to determine how fast a player can collect enough coins against the man-eater fishes. The game has infinite levels and the player is  expected to collect 5000 coins in order to escape the underworld.
 Two man-eater fishes are being introduced to the gameplay starting from level two. The player has to manoeuvre and avoid getting contact with the fishes.
 
+## Screenshots
+
+![Screenshot from 2020-08-30 12-42-55](https://user-images.githubusercontent.com/44978186/91656186-6dcc9a80-eabf-11ea-8804-2fc03a606a0b.png)
+
+
+![Screenshot from 2020-08-30 12-45-49](https://user-images.githubusercontent.com/44978186/91656208-9b194880-eabf-11ea-89ef-599791c35d34.png)
+
+
+![Screenshot from 2020-08-30 12-46-35](https://user-images.githubusercontent.com/44978186/91656215-ab312800-eabf-11ea-82e4-9aeeeac10b72.png)
+
+
 ### Live link
 
-[Phaser game link](https://iryz-phasser-game.netlify.app)
+[Phaser game link]()
 
 ### Video
 [Video Demo Link]()

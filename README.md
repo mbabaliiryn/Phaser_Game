@@ -11,6 +11,7 @@ Two man-eater fishes are being introduced to the gameplay starting from level tw
 
 ### Live link
 
+[Phaser game link](https://iryz-phasser-game.netlify.app)
 
 ### Video
 [Video Demo Link]()

@@ -8,7 +8,7 @@ export default class GameScene extends Phaser.Scene {
   constructor() {
     super('Game');
     this.coinCount = 49;
-    this.coinEarn = (this.coinCount + 1) * 5;
+    this.coinEarn = (this.coinCount + 1) * 10;
     this.ScoreBoard = new ScoreBoard(0, this.coinEarn, GameStorage.getCurrentPlayer());
     this.LeaderBoard = new LeaderBoard();
   }
@@ -61,7 +61,7 @@ export default class GameScene extends Phaser.Scene {
 
   collectCoin(player, coin) {
     coin.disableBody(true, true);
-    this.ScoreBoard.score += 5;
+    this.ScoreBoard.score += 10;
 
     if (this.coins.countActive(true) === 0) {
       this.ScoreBoard.coins += this.coinEarn;

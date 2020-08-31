@@ -6,7 +6,7 @@ This is a video game built with [Phaser 3](https://phaser.io), an open source fr
 Assignment [link](https://www.notion.so/Platform-game-4a55a7d1fcc245bcb012c76814764712).
 
 ## Overview
-Tis phaser game is a single player based game. The game is intended to determine how fast a player can collect enough coins against the man-eater fishes. The game has infinite levels and the player is  expected to collect 5000 coins in order to escape the underworld.
+This phaser game is a single player based game. The game is intended to determine how fast a player can collect enough coins against the man-eater fishes. The game has infinite levels and the player is  expected to collect 5000 coins in order to escape the underworld.
 Two man-eater fishes are being introduced to the gameplay starting from level two. The player has to manoeuvre and avoid getting contact with the fishes.
 
 ## Screenshots
@@ -24,16 +24,26 @@ Two man-eater fishes are being introduced to the gameplay starting from level tw
 
 [Phaser game link](https://eager-rosalind-419de4.netlify.app)
 
-### Video
-[Video Demo Link]()
+## How to play the game
+
+- Press the up-arrow key to move up
+- Press the down-arrow key to move down
+- Press the left-arrow key to move left
+- Press the right-arrow key to move right
+
+
+## Design
+All sprites, images and sounds used in this game are from [Open Game Art](https://opengameart.org).
 
 
 ## Gameplay
 ###### Player
 Player uses the direction keys( up: to jump and move to upper blocks, down: to move down in a faster way, left: to move left, right: to move right). He continues to collect enough coins to defeat the power of the fish.
 
+
 ###### Enemy
 Fishes of blue and green colors are released from random directions into game. They will continue swimming looking for food.
+
 
 ## Assets
 All sprites, images and sounds used in this game are from [Open Game Art](https://opengameart.org).
@@ -50,9 +60,11 @@ All sprites, images and sounds used in this game are from [Open Game Art](https:
 * [Netlify](https://app.netlify.com/) for the deployment
 * [Leaderboard API service](https://www.notion.so/Leaderboard-API-service-24c0c3c116974ac49488d4eb0267ade3) for the leaderboard
 
+
 ## Future work
 - Adding more levels
 - Defence mechanisms
+
 
 ## Get started
 - `Clone` the project in your local machine
@@ -60,8 +72,10 @@ All sprites, images and sounds used in this game are from [Open Game Art](https:
 - Run `npm install` to install the necessary dependencies
 - Run `npm start`, the page will automatically open in a new tab in your browswer.
 
+
 ### Tested with 
 - Jest
+
 
 ## Author
 

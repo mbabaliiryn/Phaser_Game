@@ -31,7 +31,7 @@ export default class CreditsScene extends Phaser.Scene {
       fill: '#fff',
     });
 
-    this.madeByText = this.add.text(300, 140, 'Iry the sweetest juicy developer', {
+    this.madeByText = this.add.text(300, 140, 'Iry', {
       fontSize: '26px',
       fill: '#fff',
     });

@@ -22,7 +22,7 @@ Two man-eater fishes are being introduced to the gameplay starting from level tw
 
 ### Live link
 
-[Phaser game link](https://eager-rosalind-419de4.netlify.app)
+[Phaser game link](https://raw.githack.com/mbabaliiryn/Phaser_Game/master/build/index.html)
 
 ## How to play the game
 
